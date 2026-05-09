@@ -1,1 +1,4 @@
-# My LazyVim configs
+# My Neovim Config
+
+A LazyVim based Neovim configuration.
+Still learning.
