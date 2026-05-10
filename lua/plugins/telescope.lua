@@ -96,13 +96,21 @@ return {
   opts = {
     defaults = {
       layout_strategy = "horizontal",
-      layout_config = { prompt_position = "top" },
+      layout_config = {
+        prompt_position = "top",
+      },
       sorting_strategy = "ascending",
       winblend = 0,
-    },
-    pickers = {
-      find_files = {
-        find_command = { "fd", "--type", "f", "--strip-cwd-prefix" },
+      file_ignore_patterns = {
+        "%.git[/\\]",
+        "node_modules[/\\]",
+        "__pycache__[/\\]",
+        "%.next[/\\]",
+        "build[/\\]",
+        "dist[/\\]",
+        "%.o$",
+        "%.[^/\\]+[/\\]",
+        "%.a$",
       },
     },
   },
