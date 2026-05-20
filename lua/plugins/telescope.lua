@@ -95,11 +95,11 @@ return {
   },
   opts = {
     defaults = {
-      layout_strategy = "horizontal",
-      layout_config = {
-        prompt_position = "bottom",
-      },
-      sorting_strategy = "ascending",
+      -- layout_strategy = "horizontal",
+      -- layout_config = {
+      --   prompt_position = "bottom",
+      -- },
+      -- sorting_strategy = "ascending",
       winblend = 0,
       file_ignore_patterns = {
         "%.git[/\\]",
