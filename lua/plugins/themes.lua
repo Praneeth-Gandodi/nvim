@@ -8,4 +8,31 @@ return {
   {
     "Mofiqul/vscode.nvim",
   },
+  {
+    "EdenEast/nightfox.nvim",
+  },
+  {
+    "navarasu/onedark.nvim",
+  },
+  {
+    "Mofiqul/dracula.nvim",
+  },
+  {
+    "nyoom-engineering/oxocarbon.nvim",
+  },
+  {
+    "neanias/everforest-nvim",
+  },
+  {
+    "ellisonleao/gruvbox.nvim",
+  },
+  {
+    "AlexvZyl/nordic.nvim",
+  },
+  {
+    "AlexvZyl/nordic.nvim",
+  },
+  {
+    "projekt0n/github-nvim-theme",
+  },
 }
