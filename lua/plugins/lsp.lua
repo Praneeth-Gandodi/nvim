@@ -11,8 +11,9 @@ return {
         "css-lsp",
         "clangd",
         "pyright",
-        "typescript-language-server",
-        "black",
+        "vtsls",
+        "ruff",
+        "jdtls",
       },
     },
   },
@@ -20,13 +21,25 @@ return {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
-        emmet_language_server = {
-          -- filetypes = { "html", "css", "javascriptreact", "typescriptreact" },
-        },
+        emmet_language_server = {},
         cssls = {},
         clangd = {},
         pyright = {},
-        black = {},
+        vtsls = {},
+        ruff = {},
+        jdtls = {},
+      },
+    },
+  },
+  {
+    "stevearc/conform.nvim",
+    opts = {
+      formatters_by_ft = {
+        javascript = { "prettier" },
+        typescript = { "prettier" },
+        javascriptreact = { "prettier" },
+        typescriptreact = { "prettier" },
+        json = { "prettier" },
       },
     },
   },

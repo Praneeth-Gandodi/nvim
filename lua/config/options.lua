@@ -3,3 +3,4 @@
 -- Add any additional options here
 
 vim.opt.guicursor = "n-v-c:block,i-ci-ve:block,r-cr:hor20,o:hor50"
+vim.opt.shell = "powershell.exe"

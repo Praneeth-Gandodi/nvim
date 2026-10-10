@@ -17,5 +17,19 @@ return {
         ]],
       },
     },
+    picker = {
+      sources = {
+        explorer = {
+          hidden = true,
+          ignored = true,
+        },
+      },
+    },
+    terminal = {
+      win = {
+        style = "float",
+        border = "rounded",
+      },
+    },
   },
 }

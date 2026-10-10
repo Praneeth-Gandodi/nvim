@@ -1,5 +1,6 @@
 return {
   "kawre/leetcode.nvim",
+  lazy = false,
   dependencies = {
     -- include a picker of your choice, see picker section for more details
     "nvim-lua/plenary.nvim",
@@ -7,6 +8,6 @@ return {
   },
   opts = {
     -- configuration goes here
-    lang = "java",
+    lang = "python3",
   },
 }

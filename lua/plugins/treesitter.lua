@@ -1,9 +1,9 @@
 return {
   "nvim-treesitter/nvim-treesitter",
-  lazy = false,
-  priority = 1000,
   build = ":TSUpdate",
-
+  init = function()
+    vim.env.CC = "gcc"
+  end,
   opts = {
     ensure_installed = {
       "lua",
@@ -31,6 +31,5 @@ return {
       enable = false,
     },
     prefer_git = false,
-    compilers = {},
   },
 }
